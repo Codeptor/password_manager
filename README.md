@@ -1,4 +1,6 @@
-#Password manager
+Password manager
+
+
 We have created a Mini Project in C
 
 The password manager can save a new password, modify a saved password, find a password.
