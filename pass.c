@@ -223,18 +223,26 @@ void display(){
 }
 
 // driver code
+
+char * display_msg = "[1] to save new password"
+"[2] to modify a password"
+"[3] to delete a password"
+"[4] to find a password"
+"[5] to display all passwords"
+"[6] to exit."
+
 int main(){
-    system("color 0a");
+
     while(1){
-        system("cls");
 
         fflush(stdin);
         char x;
-        printf("Enter [1] to save new password, [2] to modify a password, [3] to delete a password, [4] to find a password, [5] to display all passwords, [6] to exit.");
-        x = _getch();
-        system("cls");
+        printf(display_msg);
+	char c;
+	scanf("%d", &c);
 
-        switch(x){
+
+	switch(x){
             case '1':
                 saveNew();
                 break;
