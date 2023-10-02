@@ -229,7 +229,7 @@ char * display_msg = "[1] to save new password"
 "[3] to delete a password"
 "[4] to find a password"
 "[5] to display all passwords"
-"[6] to exit."
+"[6] to exit.";
 
 int main(){
 
